@@ -69,7 +69,10 @@ export class ZipNode implements INodeType {
 
       for (const entry of entries) {
         if (entry.encrypted && !password) {
-          throw new Error(`Entry '${entry.filename}' is password protected`);
+          throw new NodeOperationError(
+            this.getNode(),
+            `Entry '${entry.filename}' is password protected`
+          );
         }
 
         const entryData = await entry.getData!(new Uint8ArrayWriter(), {
