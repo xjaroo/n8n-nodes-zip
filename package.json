@@ -6,10 +6,10 @@
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/xjaroo/n8n-nodes-zip.git",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Min Hong",
+    "email": "xjaroo.iphone@gmail.com"
   },
   "repository": {
     "type": "git",

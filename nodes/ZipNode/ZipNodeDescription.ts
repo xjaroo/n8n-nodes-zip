@@ -10,11 +10,13 @@ export const ZipNodeDescription: INodeProperties[] = [
       { name: 'Unzip', value: 'unzip' },
     ],
     default: 'zip',
+    noDataExpression: true,
   },
   {
     displayName: 'File Buffer',
     name: 'fileBuffer',
     type: 'string',
+    required: true,
     default: '',
     description: 'The file buffer in base64 format',
   },
@@ -22,7 +24,12 @@ export const ZipNodeDescription: INodeProperties[] = [
     displayName: 'File Name',
     name: 'fileName',
     type: 'string',
-    default: 'output.zip',
+    default: '',
+    displayOptions: {
+      show: {
+        operation: ['zip'],
+      },
+    },
     description: 'Name of the output zip file',
   },
   {
