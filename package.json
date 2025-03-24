@@ -34,8 +34,8 @@
     "dist"
   ],
   "n8n": {
-    "n8nNodesApiVersion": 1,   
-    "nodes": [      
+    "n8nNodesApiVersion": 1,
+    "nodes": [
       "dist/nodes/ZipNode/ZipNode.node.js"
     ]
   },
@@ -58,8 +58,11 @@
     "archiver": "^7.0.1",
     "archiver-zip-encrypted": "^2.0.0",
     "node-stream-zip": "^1.15.0",
-    "nodes": "link:/Users/minhong/project/n8n-nodes-zip/nodes",
     "tmp-promise": "^3.0.3",
     "unzipper": "^0.12.3"
+  },
+  "bugs": {
+    "url": "https://github.com/xjaroo/n8n-nodes-zip/issues"
   }
+
 }
