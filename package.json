@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-zip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node to zip and unzip files (with AES support)",
   "keywords": [
     "n8n-community-node-package"
